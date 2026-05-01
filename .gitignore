@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+.env
+uv.lock
+*.egg-info/
+node_modules/

@@ -1,0 +1,9 @@
+{
+  "name": "browser-harness-pi",
+  "version": "0.1.0",
+  "description": "Pi-coding-agent extension for direct browser control via CDP",
+  "repository": "github:PopCat19/browser-harness-pi",
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
