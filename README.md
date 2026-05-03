@@ -1,12 +1,12 @@
-# Browser Harness Pi ♞
+# Browser Harness Pi
 
-Pi-coding-agent extension for direct browser control via CDP. Connect pi to your real browser — no bash CLI intermediary.
+Pi-coding-agent extension for direct browser control via CDP. Connect pi to your real browser, no bash CLI intermediary.
 
 ```
 pi (TypeScript) → Unix socket → Python daemon → CDP WebSocket → Chrome
 ```
 
-**13 custom tools** registered as a pi extension. The LLM controls your browser directly.
+13 custom tools registered as a pi extension. The LLM controls your browser directly.
 
 ## Tools
 
@@ -29,7 +29,6 @@ pi (TypeScript) → Unix socket → Python daemon → CDP WebSocket → Chrome
 ## Install
 
 ```bash
-# Clone
 git clone https://github.com/PopCat19/browser-harness-pi
 cd browser-harness-pi
 
@@ -84,11 +83,13 @@ Pi discovers the extension via `package.json` → `pi.extensions` → `./index.t
 
 ## Design
 
-- **Screenshots first** — coordinate clicks through compositor (works through iframes/shadow DOM)
-- **Thin** — no manager layer, no framework. Just CDP commands over a socket.
-- **Self-healing** — stale daemon recovery built in. LLM controls it.
-- **Real browser** — uses your actual Chrome, already logged in everywhere.
+- **Screenshots first** - coordinate clicks through compositor (works through iframes/shadow DOM)
+- **Thin** - no manager layer, no framework. Just CDP commands over a socket.
+- **Self-healing** - stale daemon recovery built in. LLM controls it.
+- **Real browser** - uses your actual Chrome, already logged in everywhere.
 
 ## License
 
-MIT — see upstream [browser-use/browser-harness](https://github.com/browser-use/browser-harness).
+MIT - see upstream [browser-use/browser-harness](https://github.com/browser-use/browser-harness).
+
+<!-- generated: 20260503-d541421 -->
