@@ -1,14 +1,21 @@
 ## Install
 
+### Nix (recommended on NixOS)
+
+```bash
+nix profile add github:PopCat19/browser-harness-pi
+pi install github:PopCat19/browser-harness-pi
+```
+
+### pip / uv
+
 ```bash
 git clone https://github.com/PopCat19/browser-harness-pi
 cd browser-harness-pi
 
-# Install Python daemon (NixOS: use nix-shell -p uv first)
 uv tool install -e .
 export PATH="$HOME/.local/bin:$PATH"
 
-# Register skill + extension with pi
 pi install github:PopCat19/browser-harness-pi
 ```
 

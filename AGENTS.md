@@ -9,7 +9,13 @@ See `README.md` for the human-facing overview.
 ## Setup commands
 
 ```bash
+# NixOS
+nix profile add github:PopCat19/browser-harness-pi
+
+# Other
 uv tool install -e .
+
+# Register with pi
 pi install github:PopCat19/browser-harness-pi
 ```
 
