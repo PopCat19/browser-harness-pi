@@ -8,10 +8,10 @@ version = "0.1.0"
 description = "Pi-coding-agent extension for direct browser control via CDP."
 requires-python = ">=3.11"
 dependencies = [
-    "cdp-use==1.4.5",
-    "fetch-use==0.4.0",
-    "pillow==12.2.0",
-    "websockets==15.0.1",
+    "cdp-use>=1.4.5",
+    "fetch-use>=0.4.0",
+    "pillow>=12.2.0",
+    "websockets>=15.0.1",
 ]
 
 [project.scripts]
